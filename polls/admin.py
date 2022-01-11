@@ -24,3 +24,7 @@ admin.site.register(Question, QuestionAdmin)
 # AdminSite.site_header = "Maquiz"
 # AdminSite.site_title
 # AdminSite.site_url
+
+# admin.site.site_header = "Pollster Admin"
+# admin.site.site_title = "Pollster Admin Area"
+admin.site.index_title = "Welcome to the Pollster Admin Area"

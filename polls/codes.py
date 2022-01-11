@@ -122,6 +122,11 @@ python -c "import django; print(django.__path__)"
 sudo nano /home/maquiz/.local/lib/python3.8/site-packages/django/contrib/admin/templates/admin/index.html
 
 
+#create app
+python3 manage.py startapp pages
+
+
+
 
 
 
