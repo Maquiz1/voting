@@ -115,6 +115,13 @@ future_question.was_published_recently()
 python manage.py test polls
 
 
+#Find django template
+python -c "import django; print(django.__path__)"
+
+#Find the Template  to customize
+sudo nano /home/maquiz/.local/lib/python3.8/site-packages/django/contrib/admin/templates/admin/index.html
+
+
 
 
 
